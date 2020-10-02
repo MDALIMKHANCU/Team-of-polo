@@ -1,0 +1,329 @@
+@media all and (max-width:2000px){
+    #offset_2 {
+        margin-left: 16.66%;
+    }
+}
+@media all and (max-width:1400px){
+    #offset_2 {
+        margin-left: 16.66%;
+    }
+}
+@media all and (max-width:1300px){
+    #dropdown_menu, #dropdown_sub_menu, #dropdown_sub_submenu {
+        width: 200px !important;
+    }
+    #offset_2 {
+        margin-left: 16.66%;
+    }
+}
+@media all and (max-width:1200px){
+    .dropdown a {
+        margin: 0 8px !important;
+    }
+    #offset_2 {
+        margin-left: 16.66%;
+    }
+    .dropdown_mega_item a {
+        margin: 0 8px !important;
+    }
+    #dropdown_mega_menu {
+        width: 980px !important;
+    }
+    #dropdown_menu, #dropdown_sub_menu, #dropdown_sub_submenu {
+        left: -100px !important;
+    }
+    #work_status {
+        padding: 70px 20px 70px 20px !important;
+    }
+}
+@media all and (max-width:992px) {
+    #offset_2 {
+        margin-left:0% !important;
+    }
+    #header_logo {
+        text-align: center;
+    }
+    .col {
+        flex-basis: 25%;
+    }
+    #dropdown_mega_menu {
+        width: 700px !important;
+    }
+    #dropown_mega_menu_selling_status h5 span {
+        display: inline;
+    }
+    #slider_inner_content h1 {
+        font-size: 50px !important;
+    }
+    #slider_inner_content h5 {
+        font-size: 16px !important;
+    }
+    #slider_inner_button a {
+        padding: 5px 8px !important;
+        font-size: 12px !important;
+    }
+    #slider_active {
+        height: 90vh !important;
+    }
+    .slider_main .owl-dots {
+        bottom: 30px !important;
+    }
+    .scrolldown {
+        left: -8px !important;
+        bottom: 40px !important;
+    }
+    #slider_inner_content h1 {
+        font-size: 40px !important;
+        margin-bottom: 10px !important;
+    }
+    #navbar_nav {
+        bottom: 37px !important;
+        right: 10px !important;
+    }
+    .animated_slider {
+        height: 94vh !important;
+    }
+    .right_left_item.slider_animation_same img {
+        min-width: 100% !important;
+        height: auto !important;
+    }
+    .counter_number span {
+        font-size: 30px !important;
+        margin-bottom: 20px !important;
+        padding-bottom: 15px !important;
+    }
+    .same_section_title p {
+        font-size: 16px !important;
+        margin-bottom: 80px !important;
+    }
+    .same_section_title h1 {
+        margin-bottom: 20px !important;
+        padding-bottom: 20px !important;
+        font-size: 30px !important;
+    }
+    .services_item {
+        margin-bottom: 20px;
+    }
+    .team_member {
+        margin-bottom: 25px;
+    }
+    .company_working_progress {
+        margin-bottom: 20px;
+    }
+    .contact_heading h1 {
+        font-size: 30px !important;
+        margin-bottom: 10px !important;
+    }
+    .contact_social_area .social_nav ul {
+        flex-wrap: wrap;
+    }
+}
+@media all and (max-width:768px){
+    .visible_in_upto_768{
+        display: none !important;
+    }
+    .visible_in_below_768{
+        display: block !important;
+    }
+    .dropdown {
+        width: 100%;
+        text-align: left;
+    }
+    #header_logo {
+        text-align: left !important;
+    }
+    .first_dropdown_menu {
+        right: 90% !important;
+        top: 0 !important;
+        height: 250px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    #dropdown_item {
+        text-align: right !important;
+    }
+    #dropdown_item:hover::after, #submenu_item:hover::after {
+        transform: translateX(-8px) !important;
+    }
+    #dropdown_sub_menu {
+        position: relative !important;
+        left: -20px !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        top: 0px !important;
+        border-top: none;
+        display: none !important;
+    }
+    #dropdown_item:hover #dropdown_sub_menu {
+        display: block !important;
+    }
+    #dropdown_sub_submenu {
+        position: relative !important;
+        left: -20px !important;
+        top: 0 !important;
+        display: none !important;
+    }
+    #submenu_item:hover #dropdown_sub_submenu {
+        display: block !important;
+    }
+    .header_nevigator_visible_768 #expand_menu{
+        display: none !important;
+    }
+    .moblie_menuu_checkbox:checked ~ .header_nevigator_visible_768 #expand_menu{
+        display: block !important;
+    }
+    .menu_expand_button {
+        display: block !important;
+        float: right;
+        margin-top: 16px;
+        margin-right: 5px;
+        pointer-events: none;
+    }
+    .moblie_menuu_checkbox {
+        position: absolute;
+        top: 32px;
+        right: 23px;
+        z-index: 999;
+        cursor: pointer;
+        height: 30px;
+        width: 30px;
+        opacity: 0;
+    }
+    #slider_active {
+        height: 60vh !important;
+    }
+    #slider_inner_content h5 {
+        font-size: 14px !important;
+    }
+    #slider_inner_content h1 {
+        font-size: 30px !important;
+    }
+    .slider_main .owl-prev span, .slider_main .owl-next span {
+        height: 60px !important;
+        width: 60px !important;
+        line-height: 45px !important;
+    }
+    .slider_main .owl-nav {
+        top: 27% !important;
+    }
+    .scrolldown {
+        left: -9px !important;
+        bottom: 45px !important;
+    }
+    .slider_main .owl-dots {
+        bottom: 44% !important;
+    }
+    .animated_slider {
+        height: 62vh !important;
+    }
+    .slider_main .owl-dots {
+        bottom: 20px !important;
+    }
+    .scrolldown {
+        left: -8px !important;
+        bottom: 40px !important;
+    }
+    .work_status_title h1 {
+        font-size: 35px !important;
+    }
+    .work_status_title p {
+        font-size: 14px !important;
+    }
+    .counter_number {
+        margin-bottom: 22px;
+    }
+    #counter_up_section {
+        padding: 65px 0 !important;
+    } 
+    .same_section_title h1 {
+        margin-bottom: 11px !important;
+        padding-bottom: 20px !important;
+        font-size: 24px !important;
+    }
+    .same_section_title h1::before {
+        width: 80px !important;
+    }
+    .company_working_progress {
+        border: 8px solid #ddd;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    #call_action_section {
+        padding: 0 0 70px 0 !important;
+    }
+    .contact_description_area {
+        width: 80% !important;
+        margin: auto !important;
+        margin-bottom: 32px !important;
+    }
+    .contact_heading h1 {
+        font-size: 25px !important;
+        margin-bottom: 3px !important;
+    }
+    .contact_heading p {
+        font-size: 16px !important;
+    }
+    .contact_form_area {
+        width: 80%;
+        margin: auto;
+    }
+    .widget1 {
+        text-align: center;
+        margin-bottom: 42px;
+    }
+    .widget2 {
+        text-align: center;
+    }
+    .widget2 ul li h3 {
+        font-size: 18px !important;
+        margin-bottom: 13px !important;
+    }
+    .widget2 ul li a {
+        margin-bottom: 5px !important;
+        font-size: 14px !important;
+    }
+@media all and (max-width:586px) {
+    #col-xs-6 {
+        width: 50% !important;
+    }
+    #header_logo {
+        text-align: left !important;
+    }
+    #slider_inner_content h5 {
+        width: 59%;
+        margin: 0 auto 20px auto;
+    }
+    .counter_number span {
+        font-size: 25px !important;
+        margin-bottom: 15px !important;
+        padding-bottom: 10px !important;
+    }
+    .counter_number h6 {
+        font-size: 14px;
+    }
+    .team_member img {
+        width: 160px !important;
+        height: 160px !important;
+    }
+    .contact_description_area {
+        width: 100% !important;
+    }
+    .contact_form_area {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+}
+@media all and (max-width:390px) {
+    #col-xms-6 {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    .widget2 ul {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .widget2 {
+        flex-wrap: wrap;
+    }
+
+}
